@@ -28,4 +28,69 @@
     font-size: 18px;
     color: $headerFontColor;
   }
+  .contact-form {
+    margin-top: 65px;
+    margin-left: 160px;
+    width: 75%;
+    .form-row {
+      margin-bottom: 33px;
+      .col {
+        input {
+          border-radius: 20px;
+          background-color: #eaebef;
+          border: none;
+          height: 40px;
+        }
+        textarea {
+          border-radius: 20px;
+          background-color: #eaebef;
+          border: none;
+          height: 130px;
+        }
+
+        ::placeholder {
+          /* Chrome, Firefox, Opera, Safari 10.1+ */
+          color: #000000;
+          opacity: 1; /* Firefox */
+          font-size: 20px;
+          padding: 10px;
+        }
+
+        :-ms-input-placeholder {
+          /* Internet Explorer 10-11 */
+          color: #000000;
+          font-size: 20px;
+        }
+
+        ::-ms-input-placeholder {
+          /* Microsoft Edge */
+          color: #000000;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .contact-img {
+    img {
+      position: absolute;
+      right: -100px;
+      top: 0;
+      width: 964px;
+      z-index: 0;
+    }
+    .circle {
+      position: absolute;
+      height: 1014px;
+      width: 998px;
+      background-color: #d2d2d2;
+      opacity: 25%;
+      border-radius: 50%;
+      display: inline-block;
+      z-index: -9999;
+      right: 0;
+      top: 0;
+      margin-right: -223px;
+      margin-top: 78px;
+    }
+  }
 }
