@@ -1,0 +1,76 @@
+.portfolio {
+  z-index: 2;
+  background: $whiteBackground;
+  height: 100vh;
+  .header-portfolio {
+    margin-left: $normalLeftMargin;
+    font-size: $headerFont;
+    font-weight: bold;
+    color: $headerFontColor;
+  }
+  .portfolio-tab-section {
+    .tab-content {
+      padding-top: 40px;
+    }
+    padding: 50px 60px 0px $normalLeftMargin;
+    .nav {
+      .nav-item {
+        font-size: 24px;
+        font-weight: 600;
+        .nav-link {
+          color: #454360;
+        }
+        .active,
+        .nav-item:hover {
+          color: #ff705c;
+        }
+      }
+    }
+
+    .portfolio-row-one {
+      padding: 20px 0px 0px 0px;
+      .card {
+        display: inline-block;
+        border-radius: 10px;
+        border: none;
+        -moz-box-shadow: 2px 2px 40px 2px #c4c4c4;
+        -webkit-box-shadow: 2px 2px 40px 2px #c4c4c4;
+        box-shadow: 2px 2px 40px 2px rgba(196, 196, 196, 0.4);
+        margin: 10px 10px 20px 30px;
+
+        .card-body {
+          width: 715px;
+          height: 200px;
+          img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 200px;
+          }
+        }
+      }
+    }
+    .portfolio-row-two {
+      padding: 20px 0px 20px 0px;
+      .card {
+        display: inline-block;
+        border-radius: 10px;
+        border: none;
+        -moz-box-shadow: 2px 2px 40px 2px #c4c4c4;
+        -webkit-box-shadow: 2px 2px 40px 2px #c4c4c4;
+        box-shadow: 2px 2px 40px 2px rgba(196, 196, 196, 0.4);
+        margin: 10px 10px 20px 30px;
+        .card-body {
+          width: 715px;
+          height: 200px;
+          img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 200px;
+          }
+        }
+      }
+    }
+  }
+}

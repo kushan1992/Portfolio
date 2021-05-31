@@ -1,0 +1,109 @@
+.services {
+  z-index: 3;
+  height: 100vh;
+  .header-services {
+    margin-left: $normalLeftMargin;
+    font-size: $headerFont;
+    font-weight: bold;
+    color: $headerFontColor;
+  }
+  .services-card-section {
+    padding-top: 80px;
+    .card-01 {
+      padding: 0px 60px 0px $normalLeftMargin;
+      .card {
+        display: inline-block;
+        border-radius: 10px;
+        background-color: $secondColor;
+        border: none;
+        color: $serviceFontColor;
+        .card-body {
+          padding: 60px 30px 60px 30px;
+          .service-img {
+            width: 98px;
+            padding-top: 20px;
+          }
+          .card-title {
+            font-size: $serviceHeaderFont;
+            font-weight: bold;
+          }
+          .card-text {
+            font-size: $serviceDescriptionFont;
+          }
+        }
+      }
+    }
+    .card-02 {
+      padding: 0px $normalLeftMargin 0px 60px;
+      .card {
+        display: inline-block;
+        border-radius: 10px;
+        background-color: $thirdColor;
+        border: none;
+        color: $serviceFontColor;
+        .card-body {
+          padding: 60px 30px 60px 30px;
+          .service-img {
+            width: 98px;
+            padding-top: 20px;
+          }
+          .card-title {
+            font-size: $serviceHeaderFont;
+            font-weight: bold;
+          }
+          .card-text {
+            font-size: $serviceDescriptionFont;
+          }
+        }
+      }
+    }
+    .card-03 {
+      padding: 0px 60px 0px $normalLeftMargin;
+      .card {
+        display: inline-block;
+        border-radius: 10px;
+        background-color: $thirdColor;
+        border: none;
+        color: $serviceFontColor;
+        .card-body {
+          padding: 60px 30px 60px 30px;
+          .service-img {
+            width: 98px;
+            padding-top: 20px;
+          }
+          .card-title {
+            font-size: $serviceHeaderFont;
+            font-weight: bold;
+          }
+          .card-text {
+            font-size: $serviceDescriptionFont;
+          }
+        }
+      }
+    }
+    .card-04 {
+      padding: 0px $normalLeftMargin 0px 60px;
+      .card {
+        display: inline-block;
+        border-radius: 10px;
+        background-color: $secondColor;
+        border: none;
+        color: $serviceFontColor;
+        .card-body {
+          padding: 60px 30px 60px 30px;
+          .service-img {
+            width: 98px;
+            padding-top: 20px;
+          }
+          .card-title {
+            font-size: $serviceHeaderFont;
+            font-weight: bold;
+          }
+          .card-text {
+            font-size: $serviceDescriptionFont;
+          }
+        }
+      }
+    }
+  }
+}

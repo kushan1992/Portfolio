@@ -1,0 +1,31 @@
+.contact {
+  z-index: 2;
+  height: 100vh;
+  .header-contact {
+    margin-left: 160px;
+    font-size: $headerFont;
+    font-weight: bold;
+    color: $headerFontColor;
+  }
+  .header-contact-line {
+    margin: 0;
+    width: 160px;
+    margin-left: 160px;
+    height: 3px;
+    background-color: #d2d2d2;
+    border: 0;
+  }
+  .header-contact-line:after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #ff705c;
+    max-width: 100px;
+  }
+  .second-line-contact {
+    margin-top: 35px;
+    margin-left: 160px;
+    font-weight: bold;
+    font-size: 18px;
+    color: $headerFontColor;
+  }
+}
