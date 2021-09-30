@@ -1,16 +1,33 @@
 .services {
   z-index: 3;
   height: 100vh;
+  @include media-breakpoint-down(md) {
+    height: 160vh;
+  }
+  @include media-breakpoint-down(lg) {
+    height: 115vh;
+  }
   .header-services {
     margin-left: $normalLeftMargin;
     font-size: $headerFont;
     font-weight: bold;
     color: $headerFontColor;
+    @include media-breakpoint-down(md) {
+      margin-left: $tabletMargin;
+    }
   }
   .services-card-section {
     padding-top: 80px;
     .card-01 {
       padding: 0px 60px 0px $normalLeftMargin;
+      @include media-breakpoint-down(md) {
+        padding-left: 6%;
+        padding-right: 6%;
+      }
+      @include media-breakpoint-down(lg) {
+        padding-left: 5%;
+        padding-right: 5%;
+      }
       .card {
         display: inline-block;
         border-radius: 10px;
@@ -19,22 +36,40 @@
         color: $serviceFontColor;
         .card-body {
           padding: 60px 30px 60px 30px;
+          @include media-breakpoint-down(md) {
+            padding: 30px 30px 30px 30px;
+          }
           .service-img {
             width: 98px;
-            padding-top: 20px;
+            padding-right: 10%;
+            @include media-breakpoint-down(lg) {
+              padding-right: 40%;
+            }
           }
           .card-title {
             font-size: $serviceHeaderFont;
             font-weight: bold;
+            margin-top: 2%;
+            margin-left: 2%;
           }
           .card-text {
             font-size: $serviceDescriptionFont;
+            margin-left: 2%;
           }
         }
       }
     }
     .card-02 {
       padding: 0px $normalLeftMargin 0px 60px;
+      @include media-breakpoint-down(md) {
+        padding-left: 6%;
+        padding-top: 5%;
+        padding-right: 6%;
+      }
+      @include media-breakpoint-down(lg) {
+        padding-left: 5%;
+        padding-right: 5%;
+      }
       .card {
         display: inline-block;
         border-radius: 10px;
@@ -43,22 +78,40 @@
         color: $serviceFontColor;
         .card-body {
           padding: 60px 30px 60px 30px;
+          @include media-breakpoint-down(md) {
+            padding: 30px 30px 30px 30px;
+          }
           .service-img {
             width: 98px;
-            padding-top: 20px;
+            padding-right: 10%;
+            @include media-breakpoint-down(lg) {
+              //padding: 10% 10% 10% 10%;
+              padding-right: 40%;
+            }
           }
           .card-title {
             font-size: $serviceHeaderFont;
             font-weight: bold;
+            margin-top: 2%;
+            margin-left: 2%;
           }
           .card-text {
             font-size: $serviceDescriptionFont;
+            margin-left: 2%;
           }
         }
       }
     }
     .card-03 {
       padding: 0px 60px 0px $normalLeftMargin;
+      @include media-breakpoint-down(md) {
+        padding-left: 6%;
+        padding-right: 6%;
+      }
+      @include media-breakpoint-down(lg) {
+        padding-left: 5%;
+        padding-right: 5%;
+      }
       .card {
         display: inline-block;
         border-radius: 10px;
@@ -67,22 +120,41 @@
         color: $serviceFontColor;
         .card-body {
           padding: 60px 30px 60px 30px;
+          @include media-breakpoint-down(md) {
+            padding: 30px 30px 30px 30px;
+          }
           .service-img {
             width: 98px;
-            padding-top: 20px;
+            padding-right: 10%;
+            @include media-breakpoint-down(lg) {
+              //padding: 10% 10% 10% 10%;
+              padding-right: 40%;
+            }
           }
           .card-title {
             font-size: $serviceHeaderFont;
             font-weight: bold;
+            margin-top: 2%;
+            margin-left: 2%;
           }
           .card-text {
             font-size: $serviceDescriptionFont;
+            margin-left: 2%;
           }
         }
       }
     }
     .card-04 {
       padding: 0px $normalLeftMargin 0px 60px;
+      @include media-breakpoint-down(md) {
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-top: 5%;
+      }
+      @include media-breakpoint-down(lg) {
+        padding-left: 5%;
+        padding-right: 5%;
+      }
       .card {
         display: inline-block;
         border-radius: 10px;
@@ -91,19 +163,31 @@
         color: $serviceFontColor;
         .card-body {
           padding: 60px 30px 60px 30px;
+          @include media-breakpoint-down(md) {
+            padding: 30px 30px 30px 30px;
+          }
           .service-img {
             width: 98px;
-            padding-top: 20px;
+            padding-right: 10%;
+            @include media-breakpoint-down(lg) {
+              padding-right: 40%;
+            }
           }
           .card-title {
             font-size: $serviceHeaderFont;
             font-weight: bold;
+            margin-top: 2%;
+            margin-left: 2%;
           }
           .card-text {
             font-size: $serviceDescriptionFont;
+            margin-left: 2%;
           }
         }
       }
     }
+  }
+  .services-card-section:last-child {
+    padding-top: 40px;
   }
 }

@@ -8,20 +8,40 @@
       right: 0;
       bottom: 0;
       width: 1064px;
+      @include media-breakpoint-down(md) {
+        width: 664px;
+      }
+      @include media-breakpoint-down(lg) {
+        width: 864px;
+        padding: 5% 0% 0% 5%;
+      }
     }
     .circle {
       position: absolute;
       height: 1014px;
       width: 998px;
-      background-color: #d2d2d2;
+      background-color: $circleColor;
       opacity: 25%;
       border-radius: 50%;
       display: inline-block;
       z-index: -9999;
       right: 0;
       top: 0;
+      bottom: 0;
       margin-right: -100px;
       margin-top: 150px;
+      @include media-breakpoint-down(md) {
+        height: 614px;
+        width: 598px;
+        margin-top: 550px;
+        margin-right: 0;
+      }
+      @include media-breakpoint-down(lg) {
+        height: 814px;
+        width: 798px;
+        margin-top: 550px;
+        margin-right: 0;
+      }
     }
   }
   .hero-data {

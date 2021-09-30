@@ -23,6 +23,9 @@ body {
   height: 3px;
   background-color: #d2d2d2;
   border: 0;
+  @include media-breakpoint-down(md) {
+    margin-left: $tabletMargin;
+  }
 }
 
 .header-line:after {

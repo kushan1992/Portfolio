@@ -7,12 +7,23 @@
     font-size: $headerFont;
     font-weight: bold;
     color: $headerFontColor;
+    @include media-breakpoint-down(md) {
+      margin-left: $tabletMargin;
+    }
   }
   .portfolio-tab-section {
     .tab-content {
       padding-top: 40px;
     }
     padding: 50px 60px 0px $normalLeftMargin;
+    @include media-breakpoint-down(md) {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+    @include media-breakpoint-down(lg) {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
     .nav {
       .nav-item {
         font-size: 24px;
@@ -24,6 +35,12 @@
         .nav-item:hover {
           color: #ff705c;
         }
+      }
+      @include media-breakpoint-down(md) {
+        margin-left: 5%;
+      }
+      @include media-breakpoint-down(lg) {
+        margin-left: 7%;
       }
     }
 
@@ -41,6 +58,12 @@
         .card-body {
           width: 715px;
           height: 200px;
+          @include media-breakpoint-down(md) {
+            width: auto;
+          }
+          @include media-breakpoint-down(lg) {
+            width: 350px;
+          }
           img {
             display: block;
             margin-left: auto;
@@ -63,6 +86,12 @@
         .card-body {
           width: 715px;
           height: 200px;
+          @include media-breakpoint-down(md) {
+            width: auto;
+          }
+          @include media-breakpoint-down(lg) {
+            width: 350px;
+          }
           img {
             display: block;
             margin-left: auto;
